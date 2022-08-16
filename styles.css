@@ -1,0 +1,59 @@
+body {
+	background-image: url('music_img_from_unsplash.jpg');
+	background-size: cover;
+	margin: 10%;
+}
+
+h1,
+h2 {
+	text-align: center;
+}
+
+.white-keys {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	width: max-content;
+}
+
+.white-keys kbd{
+	background-color: white;
+	border: 2px solid black;
+	display: inline-block;
+	float: left;
+	height: 200px;
+	line-height: 180px;
+	position: relative;
+	text-align: center;
+	width: 50px;
+}
+
+.black-keys {
+	display: flex;
+	justify-content: center;
+}
+
+.black-keys kbd {
+	background-color: black;
+	bottom: 203px;
+	color: white;
+	display: inline-block;
+	height: 100px;
+	line-height: 180px;
+	position: relative;
+	text-align: center;
+	width: 30px;
+}
+
+.black-keys kbd:nth-child(2) {
+	margin-left: 25px;
+}
+
+.black-keys kbd:nth-child(3) {
+	margin-left: 75px;
+}
+
+.black-keys kbd:nth-child(4) {
+	margin-left: 25px;
+	margin-right: 25px;
+}
